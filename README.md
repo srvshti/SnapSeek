@@ -90,14 +90,3 @@ SnapSeek
 ├── open-folder.png
 └── search_icon.png
 ```
-
-## Resume bullets
-
-- Re-engineered an AI-powered local image search tool with Python, CLIP, SQLite, and PyQt5, adding persistent embedding cache reuse to avoid repeated indexing of unchanged files.
-- Built a CLI automation layer for indexing and searching image folders, enabling scripted operational workflows alongside the desktop UI.
-- Added structured logging and index run history to improve diagnosability, supportability, and production-style observability.
-- Added unit tests around image discovery, SQLite cache reuse, and similarity filtering using mocked model calls for CI reliability.
-
-## Credits
-
-Original project: [avgvcoding/SnapSeek](https://github.com/avgvcoding/SnapSeek)
